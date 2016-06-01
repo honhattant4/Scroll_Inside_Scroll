@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity implements ScrollChild.PullU
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //test
         setContentView(R.layout.activity_main);
         mScrollParent = (ScrollView) findViewById(R.id.scrollParent);
         mScrollChild = (ScrollChild) findViewById(R.id.scrollChild);
